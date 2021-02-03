@@ -1,0 +1,147 @@
+@import url("http://fonts.googleapis.com/css?family=Open+Sans:400,300,700|Poppins:300,400,500,700");
+
+
+body {
+  background: rgb(235, 235, 235);
+  font-family: "Open Sans", sans-serif;
+  color: rgb(7, 3, 26);
+  line-height: normal;
+  margin: 0;
+  text-align: center;
+
+}
+
+h1 {
+  color: rgb(24, 24, 24);
+  font-size: 27px;
+  line-height: 1,5em;
+  color: white;
+  font-weight: 400;
+  letter-spacing: 0.5em;
+}
+
+h2 {
+  color:rgb(255, 255, 255);
+  font-size: 20px;
+  line-height: 1,5em;
+  letter-spacing: 0.2em;
+}
+
+h3 {
+  color: rgb(255, 255, 255);
+  font-size: 19px;
+  line-height: 1,5em;
+}
+
+p {
+  color: rgb(255, 255, 255);
+  font-size: 15px;
+  line-height: 1,5em;
+}
+
+a {
+  color: black;
+  font-size: 25px;
+  text-decoration: none;
+  line-height: 7 px;
+  text-align: center;
+
+}
+
+a:hover {
+  text-decoration: underline;
+  color: grey;
+  padding: 2px;
+
+}
+
+
+.list-inline {
+  list-style: none;
+}
+
+.list-inline li {
+  display: inline-block;
+  padding: 10px;
+}
+
+.avatar {
+  border-radius: 50%;
+  width: 200px;
+  height: 210px;
+}
+
+div {
+  /* background: rgb(255, 255, 255);                     */
+  /* padding: 30px;                            */
+  /* border-radius: 4px;                       
+  box-shadow: 0 10px 30px rgba(0,0,0,.1);   */
+  /* margin: 50px auto;
+  width: 700px; */
+}
+
+.title {
+  /* background-image: url('images/fundo_condores.jpg'); */
+  text-align: center;
+  margin: 0;
+  padding: 30px 0 50px 0;
+  width: auto;
+  background-image: url('images/fundo_condores.jpg');
+}
+
+.title h2 {
+  color:white;
+  font-size: 20px;
+  line-height: 0.5em;
+  letter-spacing: 0.2em;
+}
+
+.title p {
+  color: white;
+  padding: 5px;
+  margin: 0;
+}
+
+.buttom {
+  color: white;
+  padding: 15px 20px;
+  text-decoration: none;
+  font-weight: bold;
+  border-radius: 4px;
+}
+
+
+div.box {
+  margin: 13px;
+	display: inline-block;
+}
+
+div.box:hover {
+  box-shadow: white;
+  filter: opacity(30);
+
+}
+
+div.content {
+  background: rgb(235, 235, 235);
+  height: 500px;
+  padding: 30px 15px;
+
+}
+
+.content h2 {
+  color: rgb(53, 52, 52);
+  padding: 35px;
+  letter-spacing: 0.1em;
+
+
+}
+
+div.links {
+ background: rgb(235, 235, 235);
+ height: 100px;
+ padding: 35px;
+ letter-spacing: 0.1em;
+ line-height: 1,5em;
+
+}
